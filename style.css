@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg);
+    background-color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(40, 38, 38);
+    * {
+
+      }
+      
+      .header {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 58px;
+        padding: 32px;
+        background-color: #e41e6a;
+        color: #d8abab;
+        border-bottom: 10px solid #5e357c;
+      }
+      .alapealkiri {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 28px;
+        padding: 12px;
+        color: whitesmoke;
+
+      }
+      .alaalapealkiri {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 18px;
+        padding: 8px;
+        color: whitesmoke;
+
+      }
+      .divider {
+        border-bottom: 1px solid #888989;
+        margin: 2px 0;
+      }
+      
