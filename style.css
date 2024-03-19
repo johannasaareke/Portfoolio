@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(https://img.freepik.com/free-photo/abstract-gray-oil-paint-textured-background_53876-129925.jpg?w=2000&t=st=1710861957~exp=1710862557~hmac=6ab7a5a760e63233d0048def929772502aecbc60b2612078f2fefafd0912e2d0);
+  background-image: url(https://img.freepik.com/free-photo/aesthetic-minimal-white-grid-pattern-wallpaper_53876-96916.jpg?w=2000&t=st=1710866627~exp=1710867227~hmac=41d936921c713610aa2f6c26c041c237313f65757cb18d35a0d12bcf947400a5);
 }
 .esimene {
   background-color: #000;
@@ -123,17 +123,17 @@ transform: scale(1.2);
 h2 {
   font-size: 40px;
   font-weight: 700;
-  color: #000;
+  color: rgb(255, 67, 98);
   text-align: center;
-  text-decoration: underline;
-  text-decoration-color: rgb(255, 67, 98);
-  text-decoration-thickness: 2px;
   padding: 5px;
+  padding-top: 16px;
+  text-shadow: 1px 0px 1px black;
 }
 p {
   font-size: 30px;
   font-weight: 700;
-  color: #000;
+  color: rgb(255, 67, 98);
+  text-shadow: 1px 0px 1px black;
   text-align: center;
   padding: 5px; 
 }
