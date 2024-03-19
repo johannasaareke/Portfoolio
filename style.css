@@ -26,7 +26,7 @@ padding: 20px;
 }
 .navbar {
   position: fixed;
-  top: 5px;
+  top: 0px;
   width: 100vw;
   left: 0vw;
   height: 60px;
@@ -112,6 +112,9 @@ section {
   object-fit: cover;
   border-radius: 50%;
 
+}
+.gallery img:hover {
+transform: scale(1.2); 
 }
 .gallery::after {
   content: "";
