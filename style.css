@@ -10,37 +10,32 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(https://img.freepik.com/free-photo/abstract-gray-oil-paint-textured-background_53876-129925.jpg?w=2000&t=st=1710861957~exp=1710862557~hmac=6ab7a5a760e63233d0048def929772502aecbc60b2612078f2fefafd0912e2d0);
 }
 .esimene {
   background-color: #000;
   color: #fff;
-  width: 80%;
+  width: 100vw;
   height: 60%;
-  padding-top: 80px;
-  margin-top: 90px;
+padding: 20px;
+  margin-top: 50px;
   text-align: center;
   font-size: 40px;
   font-weight: 100;
-  border-radius: 110px;
+
 }
 .navbar {
   position: fixed;
   top: 5px;
-  width: 100%;
+  width: 100vw;
+  left: 0vw;
   height: 60px;
-  width: fit-content;
-  border-radius: 60px;
-  left: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  margin-right: 120px;
+  margin: 0;
   background-color: #000;
   color: #fff;
-  padding: 10px 0;
-  transform: translateX(180%);
 }
   .navbar .logo h1 {
     font-size: 1.5rem;
@@ -95,8 +90,8 @@ section {
   height: 200px;
   float: left;
   position: relative;
-  top: -57px;
-  right: -120px;
+  right: -60px;
+  bottom: -20px;
 }
 .gallery {
   border-radius: 50%;
@@ -142,8 +137,7 @@ p {
 footer {
   position: fixed;
   bottom: 0;
-  width: 80%;
-  border-radius: 60px;
+  width: 100vw;
   justify-content: space-between;
   align-items: center;
   text-align: center;
@@ -155,41 +149,59 @@ footer {
   color: white;
   text-align: center;
 }
-@media (max-width: 600px) {
-  h1 {
-      font-size: 2rem;
+@media (max-width: 1024px) {
+  .kes {
+      font-size: 31px;
+      padding-top: 20px;
   }
-
+  .nimi {
+    font-size: 21px;
+  }
   h2 {
-      font-size: 1.3rem;
+      font-size: 30px;
   }
-
-  .project {
+  .gallery {
       padding: 10px;
   }
+  .navbar .logo h1 {
+    font-size: 1.2rem;
 }
-@media (max-width: 400px) {
-  h1 {
-      font-size: 1.5rem;
+.nav-links a {
+  font-size: 1.0rem;
+}
+.footer {
+  font-size: 12px;
+}
+p {
+  font-size: 25px;
+  }
+}
+@media (max-width: 600px) {
+ .kes {
+      font-size: 20px;
+      padding-top: 60px;
+  }
+  .nimi {
+    font-size: 10px;
   }
 
   h2 {
-      font-size: 1.1rem;
+      font-size: 20px;
   }
 
-  .project {
+  .gallery {
       padding: 5px;
   }
+  .navbar .logo h1 {
+    font-size: 1.0rem;
 }
-.social-media {
-  margin-top: 20px;
+.nav-links a {
+  font-size: 0.8rem;
 }
-.social-link {
-  color: #333;
-  font-size: 1.5rem;
-  margin-right: 10px;
-  transition: color 0.3s ease;
+.footer {
+  font-size: 10px;
 }
-.social-link:hover {
-  color: #000;
-}  
+p {
+  font-size: 20px;
+  }
+}
