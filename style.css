@@ -156,12 +156,17 @@ h3 {
   font-size: 20px;
   box-sizing: border-box;
   border-radius: 50%;
-  width: auto;
+  width: 400px;
+  height: 400px;
+  padding: 80px;
   background-color: black;
   color: white;
-  padding: 30px;
-
-  
+  text-align: center;
+  align-items: center;
+}
+li {
+  font-size: 15px;
+padding: 10px;
 }
 @media (max-width: 1024px) {
   .kes {
