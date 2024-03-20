@@ -59,10 +59,20 @@ padding: 20px;
     color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
+    transition: .3s;
 }
 
 .nav-links a:hover {
     text-decoration: underline;
+    color: pink;
+}
+.navbar .logo h1 a {
+color: white;
+text-decoration: none;
+}
+.navbar .logo h1 a:hover {
+  color:pink;
+  font-size: 1,7rem;
 }
 .kes {
   font-weight: 900;
@@ -163,6 +173,7 @@ h3 {
   color: white;
   text-align: center;
   align-items: center;
+  margin-left: 35%;
 }
 li {
   font-size: 15px;
@@ -194,6 +205,23 @@ padding: 10px;
 p {
   font-size: 25px;
   }
+  h3 {
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+  }
+  li {
+    font-size: 13px;
+  padding: 10px;
+  }
 }
 @media (max-width: 600px) {
  .kes {
@@ -222,5 +250,22 @@ p {
 }
 p {
   font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 90px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-left: 10%;
+  }
+  li {
+    font-size: 11px;
+  padding: 10px;
   }
 }
