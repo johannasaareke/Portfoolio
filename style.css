@@ -152,6 +152,17 @@ footer {
   color: white;
   text-align: center;
 }
+h3 {
+  font-size: 20px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: auto;
+  background-color: black;
+  color: white;
+  padding: 30px;
+
+  
+}
 @media (max-width: 1024px) {
   .kes {
       font-size: 31px;
